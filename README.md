@@ -1,5 +1,19 @@
-# u_boot_demo
-u_boot_demo for rockpi4b_plus_v1.6
+# u_boot_demo for rockpi4b_plus_v1.6
+
+# 0、Download Source Code
+curl https://storage.googleapis.com/git-repo-downloads/repo-1 > ~/bin/repo
+
+chmod a+x ~/bin/repo
+
+python3 ~/bin/repo init -u https://github.com/radxa/manifests.git -b rockchip-android-10 -m rockchip-q-release.xml
+
+
+$ cd u-boot 
+
+$ rm -rf *
+
+$ cp u-boot-xxx-ok/* to u-boot 
+
 
 # 1、ROCKPI 4A/B（编译u-boot）
 
