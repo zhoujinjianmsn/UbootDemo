@@ -62,4 +62,4 @@ $ ./mkupdate_rk3399.sh
 
 Please burn rockdev/update.img
 
-https://wiki.radxa.com/Rockpi4/install/android-eMMC-rkupdate
+https://wiki.radxa.com/Android/android_tool
