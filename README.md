@@ -1,12 +1,12 @@
 # u_boot_demo for rockpi4b_plus_v1.6
 
-# 0、Download Source Code
-curl https://storage.googleapis.com/git-repo-downloads/repo-1 > ~/bin/repo
+# 0、Env(NO) && Download Source Code
 
-chmod a+x ~/bin/repo
+$ curl https://storage.googleapis.com/git-repo-downloads/repo-1 > ~/bin/repo
 
-python3 ~/bin/repo init -u https://github.com/radxa/manifests.git -b rockchip-android-10 -m rockchip-q-release.xml
+$ chmod a+x ~/bin/repo
 
+$ python3 ~/bin/repo init -u https://github.com/radxa/manifests.git -b rockchip-android-10 -m rockchip-q-release.xml
 
 $ cd u-boot 
 
