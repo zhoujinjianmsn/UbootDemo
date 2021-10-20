@@ -15,7 +15,7 @@ $ rm -rf *
 $ cp u-boot-xxx-ok/* to u-boot 
 
 
-# 1、ROCKPI 4A/B（编译u-boot）
+# 1、ROCKPI 4B（编译u-boot）
 
 $ cd u-boot
 
@@ -24,7 +24,7 @@ $ ./make.sh rockpi4b
 $ cd -
 
 
-# 2、ROCKPI 4A/B（编译kernel）
+# 2、ROCKPI 4B（编译kernel）
 
 $ cd kernel
 
@@ -35,7 +35,7 @@ $ make ARCH=arm64 rk3399-rockpi-4b.img -j8
 $ cd -
 
 
-# 3、ROCKPI 4A/B（编译Android）
+# 3、ROCKPI 4B（编译Android）
 
 $ source build/envsetup.sh
 
@@ -44,14 +44,14 @@ $ lunch RockPi4B-userdebug
 $ make -j8
 
 
-# 4、ROCKPI 4A/B（mkimage）
+# 4、ROCKPI 4B（mkimage）
 
 $ ln -s RKTools/linux/Linux_Pack_Firmware/rockdev/ rockdev
 
 $ ./mkimage.sh
 
 
-# 5、ROCKPI 4A/B（编译update.img）
+# 5、ROCKPI 4B（编译update.img）
 
 $ cd rockdev
 
